@@ -5,7 +5,8 @@
     "category": "BEGINNER",
     "description": "Learn the basics of JavaScript.",
     "duration": "3 hours",
-    "price": 19.99
+    "price": 19.99,
+    "img": "https://via.placeholder.com/150?text=JavaScript+Basics"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "category": "BEGINNER",
     "description": "Introduction to Angular framework.",
     "duration": "5 hours",
-    "price": 29.99
+    "price": 29.99,
+    "img": "https://via.placeholder.com/150?text=Angular+for+Beginners"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "category": "ADVANCED",
     "description": "Deep dive into advanced concepts of React.",
     "duration": "8 hours",
-    "price": 39.99
+    "price": 39.99,
+    "img": "https://via.placeholder.com/150?text=Advanced+React"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "category": "ADVANCED",
     "description": "Learn how to build server-side applications with Node.js and Express.",
     "duration": "6 hours",
-    "price": 34.99
+    "price": 34.99,
+    "img": "https://via.placeholder.com/150?text=Node.js+and+Express"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "category": "BEGINNER",
     "description": "Introduction to data science using Python.",
     "duration": "4 hours",
-    "price": 24.99
+    "price": 24.99,
+    "img": "https://via.placeholder.com/150?text=Python+for+Data+Science"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "category": "INTERMEDIATE",
     "description": "Basics of machine learning algorithms and techniques.",
     "duration": "7 hours",
-    "price": 44.99
+    "price": 44.99,
+    "img": "https://via.placeholder.com/150?text=Machine+Learning+Basics"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "category": "ADVANCED",
     "description": "Comprehensive guide to full-stack web development.",
     "duration": "10 hours",
-    "price": 49.99
+    "price": 49.99,
+    "img": "https://via.placeholder.com/150?text=Full-Stack+Web+Development"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "category": "INTERMEDIATE",
     "description": "Learn the essentials of DevOps and CI/CD.",
     "duration": "5 hours",
-    "price": 29.99
+    "price": 29.99,
+    "img": "https://via.placeholder.com/150?text=DevOps+Essentials"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "category": "BEGINNER",
     "description": "Understand the basics of UI/UX design.",
     "duration": "3.5 hours",
-    "price": 21.99
+    "price": 21.99,
+    "img": "https://via.placeholder.com/150?text=UI%2FUX+Design+Fundamentals"
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "category": "ADVANCED",
     "description": "Explore cloud computing services with AWS.",
     "duration": "6 hours",
-    "price": 39.99
+    "price": 39.99,
+    "img": "https://via.placeholder.com/150?text=Cloud+Computing+with+AWS"
   }
 ]
