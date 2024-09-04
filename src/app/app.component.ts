@@ -34,7 +34,7 @@ export class AppComponent {
         console.log('Data fetched:', this.courses$);
       },
       error: (err) => {
-        console.log('An error occured', this.error);
+        console.log('An error occured', err);
         this.error = 'Failed to fetch courses: ' + err.message;
         this.loading = false;
       },

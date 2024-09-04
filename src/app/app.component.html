@@ -1,16 +1,51 @@
 <div class="main">
-  <button (click)="fetchData()">click</button>
+  <h1>RxJS Error Handling and Debugging</h1>
+  <button (click)="fetchData()">Fetch Data</button>
 
   @if (loading) {
-  <p>Loading...</p>
+  <div class="lds-ripple">
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Skeleton loading for cards -->
+  <div class="card-div">
+    <div class="skeleton-card">
+      <div class="skeleton-img"></div>
+      <div class="course">
+        <div class="skeleton" style="width: 60%"></div>
+        <div class="skeleton" style="width: 80%"></div>
+      </div>
+      <div class="details">
+        <div class="skeleton" style="width: 40%"></div>
+        <div class="skeleton" style="width: 50%"></div>
+      </div>
+      <div class="skeleton" style="width: 20%"></div>
+    </div>
+  </div>
   } @if (error) {
-  <p>An error occurred: {{ error }}</p>
+  <div class="error-div">
+    <span class="error-img">
+      <img src="assets/Error.png" alt="" />
+    </span>
+    <p class="error">{{ error }}</p>
+  </div>
   }
 
-  <div *ngIf="courses$ as course">
+  <div *ngIf="courses$ as course" class="courses-wrapper card-div">
     @for (item of course; track $index) {
-
-    <p>{{ item.name }}</p>
+    <div class="card">
+      <img [src]="item.img" [alt]="item.name" />
+      <div class="course">
+        <h2>{{ item.name }}</h2>
+        <p>{{ item.description }}</p>
+      </div>
+      <div class="details">
+        <p>{{ item.price | currency }}</p>
+        <p>{{ item.duration }}</p>
+      </div>
+      <div class="category">{{ item.category }}</div>
+    </div>
     }
   </div>
 </div>
