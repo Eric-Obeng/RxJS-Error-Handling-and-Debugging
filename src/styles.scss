@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+*::after,
+*::before {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191e29;
+  color: #01c38d;
+  padding: 2.4rem;
+}
