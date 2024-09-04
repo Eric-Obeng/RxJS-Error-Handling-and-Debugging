@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript Basics",
+    "category": "BEGINNER",
+    "description": "Learn the basics of JavaScript.",
+    "duration": "3 hours",
+    "price": 19.99
+  },
+  {
+    "id": 2,
+    "name": "Angular for Beginners",
+    "category": "BEGINNER",
+    "description": "Introduction to Angular framework.",
+    "duration": "5 hours",
+    "price": 29.99
+  },
+  {
+    "id": 3,
+    "name": "Advanced React",
+    "category": "ADVANCED",
+    "description": "Deep dive into advanced concepts of React.",
+    "duration": "8 hours",
+    "price": 39.99
+  },
+  {
+    "id": 4,
+    "name": "Node.js and Express",
+    "category": "ADVANCED",
+    "description": "Learn how to build server-side applications with Node.js and Express.",
+    "duration": "6 hours",
+    "price": 34.99
+  },
+  {
+    "id": 5,
+    "name": "Python for Data Science",
+    "category": "BEGINNER",
+    "description": "Introduction to data science using Python.",
+    "duration": "4 hours",
+    "price": 24.99
+  },
+  {
+    "id": 6,
+    "name": "Machine Learning Basics",
+    "category": "INTERMEDIATE",
+    "description": "Basics of machine learning algorithms and techniques.",
+    "duration": "7 hours",
+    "price": 44.99
+  },
+  {
+    "id": 7,
+    "name": "Full-Stack Web Development",
+    "category": "ADVANCED",
+    "description": "Comprehensive guide to full-stack web development.",
+    "duration": "10 hours",
+    "price": 49.99
+  },
+  {
+    "id": 8,
+    "name": "DevOps Essentials",
+    "category": "INTERMEDIATE",
+    "description": "Learn the essentials of DevOps and CI/CD.",
+    "duration": "5 hours",
+    "price": 29.99
+  },
+  {
+    "id": 9,
+    "name": "UI/UX Design Fundamentals",
+    "category": "BEGINNER",
+    "description": "Understand the basics of UI/UX design.",
+    "duration": "3.5 hours",
+    "price": 21.99
+  },
+  {
+    "id": 10,
+    "name": "Cloud Computing with AWS",
+    "category": "ADVANCED",
+    "description": "Explore cloud computing services with AWS.",
+    "duration": "6 hours",
+    "price": 39.99
+  }
+]
